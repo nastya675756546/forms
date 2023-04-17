@@ -19,6 +19,12 @@ namespace WindowsFormsApp1
         public static ZD5_1 zd5_1 = new ZD5_1();
         public static ZD6 zd6 = new ZD6();
         public static ZD7 zd7 = new ZD7();
+        public static ZD8 zd8 = new ZD8();
+        public static ZD9 zd9 = new ZD9();
+        public static ZD10 zd10 = new ZD10();
+        public static ZD11 zd11 = new ZD11();
+        public static ZD12 zd12 = new ZD12();
+        public static ZD13 zd13 = new ZD13();
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>

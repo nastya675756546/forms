@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +61,30 @@
     </Compile>
     <Compile Include="ZD1.Designer.cs">
       <DependentUpon>ZD1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZD10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZD10.Designer.cs">
+      <DependentUpon>ZD10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZD11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZD11.Designer.cs">
+      <DependentUpon>ZD11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZD12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZD12.Designer.cs">
+      <DependentUpon>ZD12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZD13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZD13.Designer.cs">
+      <DependentUpon>ZD13.cs</DependentUpon>
     </Compile>
     <Compile Include="ZD2.cs">
       <SubType>Form</SubType>
@@ -115,6 +140,18 @@
     <Compile Include="ZD7.Designer.cs">
       <DependentUpon>ZD7.cs</DependentUpon>
     </Compile>
+    <Compile Include="ZD8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZD8.Designer.cs">
+      <DependentUpon>ZD8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZD9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZD9.Designer.cs">
+      <DependentUpon>ZD9.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +167,18 @@
     </Compile>
     <EmbeddedResource Include="ZD1.resx">
       <DependentUpon>ZD1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZD10.resx">
+      <DependentUpon>ZD10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZD11.resx">
+      <DependentUpon>ZD11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZD12.resx">
+      <DependentUpon>ZD12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZD13.resx">
+      <DependentUpon>ZD13.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ZD2.resx">
       <DependentUpon>ZD2.cs</DependentUpon>
@@ -157,6 +206,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ZD7.resx">
       <DependentUpon>ZD7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZD8.resx">
+      <DependentUpon>ZD8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZD9.resx">
+      <DependentUpon>ZD9.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

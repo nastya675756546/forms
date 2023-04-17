@@ -58,5 +58,41 @@ namespace WindowsFormsApp1
             Program.zd7.Show();
             this.Hide();
         }
+
+        private void задание1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Program.zd8.Show();
+            this.Hide();
+        }
+
+        private void задание2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Program.zd9.Show();
+            this.Hide();
+        }
+
+        private void лР10ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Program.zd10.Show();
+            this.Hide();
+        }
+
+        private void задание1ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Program.zd11.Show();
+            this.Hide();
+        }
+
+        private void задание2ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Program.zd12.Show();
+            this.Hide();
+        }
+
+        private void лР12ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Program.zd13.Show();
+            this.Hide();
+        }
     }
 }

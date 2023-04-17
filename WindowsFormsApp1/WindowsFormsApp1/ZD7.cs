@@ -37,5 +37,11 @@ namespace WindowsFormsApp1
                 textBox1.Text += "\r\n";
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Program.f1.Show();
+            this.Hide();
+        }
     }
 }

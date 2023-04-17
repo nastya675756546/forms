@@ -38,6 +38,14 @@
             this.лБ4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.лБ56ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.лР7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.лР89ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.задание1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.задание2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.лР10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.лР11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.задание1ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.задание2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.лР12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +67,11 @@
             this.лБ3ToolStripMenuItem,
             this.лБ4ToolStripMenuItem,
             this.лБ56ToolStripMenuItem,
-            this.лР7ToolStripMenuItem});
+            this.лР7ToolStripMenuItem,
+            this.лР89ToolStripMenuItem,
+            this.лР10ToolStripMenuItem,
+            this.лР11ToolStripMenuItem,
+            this.лР12ToolStripMenuItem});
             this.главноеМенюToolStripMenuItem.Name = "главноеМенюToolStripMenuItem";
             this.главноеМенюToolStripMenuItem.Size = new System.Drawing.Size(99, 20);
             this.главноеМенюToolStripMenuItem.Text = "Главное меню";
@@ -122,6 +134,66 @@
             this.лР7ToolStripMenuItem.Text = "ЛР7";
             this.лР7ToolStripMenuItem.Click += new System.EventHandler(this.лР7ToolStripMenuItem_Click);
             // 
+            // лР89ToolStripMenuItem
+            // 
+            this.лР89ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.задание1ToolStripMenuItem,
+            this.задание2ToolStripMenuItem});
+            this.лР89ToolStripMenuItem.Name = "лР89ToolStripMenuItem";
+            this.лР89ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.лР89ToolStripMenuItem.Text = "ЛР8-9";
+            // 
+            // задание1ToolStripMenuItem
+            // 
+            this.задание1ToolStripMenuItem.Name = "задание1ToolStripMenuItem";
+            this.задание1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.задание1ToolStripMenuItem.Text = "Задание 1";
+            this.задание1ToolStripMenuItem.Click += new System.EventHandler(this.задание1ToolStripMenuItem_Click);
+            // 
+            // задание2ToolStripMenuItem
+            // 
+            this.задание2ToolStripMenuItem.Name = "задание2ToolStripMenuItem";
+            this.задание2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.задание2ToolStripMenuItem.Text = "Задание2";
+            this.задание2ToolStripMenuItem.Click += new System.EventHandler(this.задание2ToolStripMenuItem_Click);
+            // 
+            // лР10ToolStripMenuItem
+            // 
+            this.лР10ToolStripMenuItem.Name = "лР10ToolStripMenuItem";
+            this.лР10ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.лР10ToolStripMenuItem.Text = "ЛР10";
+            this.лР10ToolStripMenuItem.Click += new System.EventHandler(this.лР10ToolStripMenuItem_Click);
+            // 
+            // лР11ToolStripMenuItem
+            // 
+            this.лР11ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.задание1ToolStripMenuItem1,
+            this.задание2ToolStripMenuItem1});
+            this.лР11ToolStripMenuItem.Name = "лР11ToolStripMenuItem";
+            this.лР11ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.лР11ToolStripMenuItem.Text = "ЛР11";
+            // 
+            // задание1ToolStripMenuItem1
+            // 
+            this.задание1ToolStripMenuItem1.Name = "задание1ToolStripMenuItem1";
+            this.задание1ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.задание1ToolStripMenuItem1.Text = "Задание 1";
+            this.задание1ToolStripMenuItem1.Click += new System.EventHandler(this.задание1ToolStripMenuItem1_Click);
+            // 
+            // задание2ToolStripMenuItem1
+            // 
+            this.задание2ToolStripMenuItem1.Name = "задание2ToolStripMenuItem1";
+            this.задание2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.задание2ToolStripMenuItem1.Text = "Задание 2";
+            this.задание2ToolStripMenuItem1.Click += new System.EventHandler(this.задание2ToolStripMenuItem1_Click);
+            // 
+            // лР12ToolStripMenuItem
+            // 
+            this.лР12ToolStripMenuItem.Name = "лР12ToolStripMenuItem";
+            this.лР12ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.лР12ToolStripMenuItem.Text = "ЛР12";
+            this.лР12ToolStripMenuItem.Click += new System.EventHandler(this.лР12ToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -151,6 +223,14 @@
         private System.Windows.Forms.ToolStripMenuItem лБ4ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem лБ56ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem лР7ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem лР89ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem задание1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem задание2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem лР10ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem лР11ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem задание1ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem задание2ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem лР12ToolStripMenuItem;
     }
 }
 
