@@ -58,6 +58,8 @@ namespace WindowsFormsApp1
             statusStrip1.Items.Add(infOfileLabel);
 
             statusStrip1.Items.Add(fileLabel);
+
+            fontDialog1.ShowColor = true;
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -170,23 +172,52 @@ namespace WindowsFormsApp1
 
         private void button8_Click(object sender, EventArgs e)
         {
+            count = 0;
+
             word = comboBox2.Text;
-            textBox2.Text += word;
+
 
             for (int i = 0; i < str.Length; i++)
             {
                 if (str[i]==word)
                 {
-                    count += count;
+                    count ++;
                 }
             }
-            textBox2.Text += count.ToString();
-            
+            if (count > 0)
+            {
+                MessageBox.Show("Данное слово повторяется " + count.ToString() + "раз", word);
+            }
+            else
+            {
+                MessageBox.Show("Данное слово  не повторяется ", word);
+            }
+
+
         }
 
-        private void comboBox2_KeyPress(object sender, KeyPressEventArgs e)
+        private void comboBox2_MouseHover(object sender, EventArgs e)
         {
-            e.Handled = true;
+            toolTip1.SetToolTip(comboBox2, "В comboBox повторяющиеся слова");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            comboBox2.Items.Clear();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (fontDialog1.ShowDialog() == DialogResult.Cancel)
+                return;
+            textBox2.Font = fontDialog1.Font;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (colorDialog1.ShowDialog() == DialogResult.Cancel)
+                return;
+            textBox2.BackColor = colorDialog1.Color;
         }
     }
 }

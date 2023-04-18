@@ -56,3 +56,5 @@ E:\C#\forms\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojA
 E:\C#\forms\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ZD11.resources
 E:\C#\forms\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ZD12.resources
 E:\C#\forms\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ZD13.resources
+E:\C#\forms\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ZD14.resources
+E:\C#\forms\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ZD15.resources

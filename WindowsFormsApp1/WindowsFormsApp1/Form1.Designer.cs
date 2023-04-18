@@ -46,6 +46,8 @@
             this.задание1ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.задание2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.лР12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.лР13ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.лР14ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,7 +73,9 @@
             this.лР89ToolStripMenuItem,
             this.лР10ToolStripMenuItem,
             this.лР11ToolStripMenuItem,
-            this.лР12ToolStripMenuItem});
+            this.лР12ToolStripMenuItem,
+            this.лР13ToolStripMenuItem,
+            this.лР14ToolStripMenuItem});
             this.главноеМенюToolStripMenuItem.Name = "главноеМенюToolStripMenuItem";
             this.главноеМенюToolStripMenuItem.Size = new System.Drawing.Size(99, 20);
             this.главноеМенюToolStripMenuItem.Text = "Главное меню";
@@ -146,14 +150,14 @@
             // задание1ToolStripMenuItem
             // 
             this.задание1ToolStripMenuItem.Name = "задание1ToolStripMenuItem";
-            this.задание1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.задание1ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.задание1ToolStripMenuItem.Text = "Задание 1";
             this.задание1ToolStripMenuItem.Click += new System.EventHandler(this.задание1ToolStripMenuItem_Click);
             // 
             // задание2ToolStripMenuItem
             // 
             this.задание2ToolStripMenuItem.Name = "задание2ToolStripMenuItem";
-            this.задание2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.задание2ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.задание2ToolStripMenuItem.Text = "Задание2";
             this.задание2ToolStripMenuItem.Click += new System.EventHandler(this.задание2ToolStripMenuItem_Click);
             // 
@@ -176,14 +180,14 @@
             // задание1ToolStripMenuItem1
             // 
             this.задание1ToolStripMenuItem1.Name = "задание1ToolStripMenuItem1";
-            this.задание1ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.задание1ToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
             this.задание1ToolStripMenuItem1.Text = "Задание 1";
             this.задание1ToolStripMenuItem1.Click += new System.EventHandler(this.задание1ToolStripMenuItem1_Click);
             // 
             // задание2ToolStripMenuItem1
             // 
             this.задание2ToolStripMenuItem1.Name = "задание2ToolStripMenuItem1";
-            this.задание2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.задание2ToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
             this.задание2ToolStripMenuItem1.Text = "Задание 2";
             this.задание2ToolStripMenuItem1.Click += new System.EventHandler(this.задание2ToolStripMenuItem1_Click);
             // 
@@ -193,6 +197,20 @@
             this.лР12ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.лР12ToolStripMenuItem.Text = "ЛР12";
             this.лР12ToolStripMenuItem.Click += new System.EventHandler(this.лР12ToolStripMenuItem_Click);
+            // 
+            // лР13ToolStripMenuItem
+            // 
+            this.лР13ToolStripMenuItem.Name = "лР13ToolStripMenuItem";
+            this.лР13ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.лР13ToolStripMenuItem.Text = "ЛР13";
+            this.лР13ToolStripMenuItem.Click += new System.EventHandler(this.лР13ToolStripMenuItem_Click);
+            // 
+            // лР14ToolStripMenuItem
+            // 
+            this.лР14ToolStripMenuItem.Name = "лР14ToolStripMenuItem";
+            this.лР14ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.лР14ToolStripMenuItem.Text = "ЛР 14";
+            this.лР14ToolStripMenuItem.Click += new System.EventHandler(this.лР14ToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -231,6 +249,8 @@
         private System.Windows.Forms.ToolStripMenuItem задание1ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem задание2ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem лР12ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem лР13ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem лР14ToolStripMenuItem;
     }
 }
 
