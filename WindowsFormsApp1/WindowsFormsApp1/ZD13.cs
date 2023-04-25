@@ -74,7 +74,7 @@ namespace WindowsFormsApp1
         {
             timer1.Start();
 
-            //button8.Enabled = false;
+            button8.Enabled = false;
 
             button9.Enabled = false;
 
@@ -107,11 +107,11 @@ namespace WindowsFormsApp1
         }
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
-        {/*
+        {
             if (textBox2.Lines.Length >= 15)
             {
                 button10.Enabled = true;
-            }*/
+            }
         }
 
         string openFile = "";

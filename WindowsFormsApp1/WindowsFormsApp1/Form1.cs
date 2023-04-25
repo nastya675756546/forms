@@ -106,5 +106,11 @@ namespace WindowsFormsApp1
             Program.zd15.Show();
             this.Hide();
         }
+
+        private void лР1516ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Program.zd16.Show();
+            this.Hide();
+        }
     }
 }

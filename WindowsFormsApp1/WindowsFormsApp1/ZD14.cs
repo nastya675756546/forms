@@ -75,5 +75,10 @@ namespace WindowsFormsApp1
             Program.f1.Show();
             this.Hide();
         }
+
+        private void dataGridView1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
     }
 }

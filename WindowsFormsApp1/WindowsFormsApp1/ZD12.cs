@@ -91,7 +91,7 @@ namespace WindowsFormsApp1
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 fileName = openFileDialog1.FileName;
-                //новый код, открывает и читает файл
+                
                 try
                 {
                     using (StreamReader reader = File.OpenText(fileName))
@@ -138,7 +138,7 @@ namespace WindowsFormsApp1
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 fileName = saveFileDialog1.FileName;
-                // запись в файл
+               
                 try
                 {
                     Stream stream = File.OpenWrite(fileName);

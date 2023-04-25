@@ -48,7 +48,10 @@
             this.лР12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.лР13ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.лР14ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.лР1516ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -75,7 +78,8 @@
             this.лР11ToolStripMenuItem,
             this.лР12ToolStripMenuItem,
             this.лР13ToolStripMenuItem,
-            this.лР14ToolStripMenuItem});
+            this.лР14ToolStripMenuItem,
+            this.лР1516ToolStripMenuItem});
             this.главноеМенюToolStripMenuItem.Name = "главноеМенюToolStripMenuItem";
             this.главноеМенюToolStripMenuItem.Size = new System.Drawing.Size(99, 20);
             this.главноеМенюToolStripMenuItem.Text = "Главное меню";
@@ -150,14 +154,14 @@
             // задание1ToolStripMenuItem
             // 
             this.задание1ToolStripMenuItem.Name = "задание1ToolStripMenuItem";
-            this.задание1ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.задание1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.задание1ToolStripMenuItem.Text = "Задание 1";
             this.задание1ToolStripMenuItem.Click += new System.EventHandler(this.задание1ToolStripMenuItem_Click);
             // 
             // задание2ToolStripMenuItem
             // 
             this.задание2ToolStripMenuItem.Name = "задание2ToolStripMenuItem";
-            this.задание2ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.задание2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.задание2ToolStripMenuItem.Text = "Задание2";
             this.задание2ToolStripMenuItem.Click += new System.EventHandler(this.задание2ToolStripMenuItem_Click);
             // 
@@ -180,14 +184,14 @@
             // задание1ToolStripMenuItem1
             // 
             this.задание1ToolStripMenuItem1.Name = "задание1ToolStripMenuItem1";
-            this.задание1ToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
+            this.задание1ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.задание1ToolStripMenuItem1.Text = "Задание 1";
             this.задание1ToolStripMenuItem1.Click += new System.EventHandler(this.задание1ToolStripMenuItem1_Click);
             // 
             // задание2ToolStripMenuItem1
             // 
             this.задание2ToolStripMenuItem1.Name = "задание2ToolStripMenuItem1";
-            this.задание2ToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
+            this.задание2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.задание2ToolStripMenuItem1.Text = "Задание 2";
             this.задание2ToolStripMenuItem1.Click += new System.EventHandler(this.задание2ToolStripMenuItem1_Click);
             // 
@@ -212,11 +216,27 @@
             this.лР14ToolStripMenuItem.Text = "ЛР 14";
             this.лР14ToolStripMenuItem.Click += new System.EventHandler(this.лР14ToolStripMenuItem_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(123, 80);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(443, 284);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // лР1516ToolStripMenuItem
+            // 
+            this.лР1516ToolStripMenuItem.Name = "лР1516ToolStripMenuItem";
+            this.лР1516ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.лР1516ToolStripMenuItem.Text = "ЛР 15-16";
+            this.лР1516ToolStripMenuItem.Click += new System.EventHandler(this.лР1516ToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
@@ -224,6 +244,7 @@
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -251,6 +272,8 @@
         private System.Windows.Forms.ToolStripMenuItem лР12ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem лР13ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem лР14ToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem лР1516ToolStripMenuItem;
     }
 }
 

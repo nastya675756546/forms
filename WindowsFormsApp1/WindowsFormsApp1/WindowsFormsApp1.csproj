@@ -98,6 +98,12 @@
     <Compile Include="ZD15.Designer.cs">
       <DependentUpon>ZD15.cs</DependentUpon>
     </Compile>
+    <Compile Include="Zd16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zd16.Designer.cs">
+      <DependentUpon>Zd16.cs</DependentUpon>
+    </Compile>
     <Compile Include="ZD2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ZD15.resx">
       <DependentUpon>ZD15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zd16.resx">
+      <DependentUpon>Zd16.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ZD2.resx">
       <DependentUpon>ZD2.cs</DependentUpon>
