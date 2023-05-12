@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-
+      
         private void вычисленияToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Program.zd1.Show();
@@ -110,6 +110,12 @@ namespace WindowsFormsApp1
         private void лР1516ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Program.zd16.Show();
+            this.Hide();
+        }
+
+        private void лР17ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Program.zd17.Show();
             this.Hide();
         }
     }

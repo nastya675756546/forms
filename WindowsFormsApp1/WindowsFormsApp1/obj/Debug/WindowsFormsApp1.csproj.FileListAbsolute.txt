@@ -59,3 +59,4 @@ E:\C#\forms\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ZD13.re
 E:\C#\forms\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ZD14.resources
 E:\C#\forms\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ZD15.resources
 E:\C#\forms\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Zd16.resources
+E:\C#\forms\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ZD17.resources
